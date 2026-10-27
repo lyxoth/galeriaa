@@ -1,0 +1,87 @@
+/*CONFIGUACIÓN GENERAL*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgba(247, 199, 226, 0.795);
+}
+
+header {
+    background-color: antiquewhite;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid #da9bc2
+}
+
+header h1 {
+    color: #b47c9b;
+    font-size: 38px;
+    margin-top: 20px;
+}
+
+header p {
+    color: #855971;
+    font-size: 16px;
+    margin: 0;
+}
+
+nav {
+    margin-top: 0px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #855971;
+    margin: 5px;
+    padding: 12px 18px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.patrones {
+    padding: 30px;
+    margin: 25px;
+    background-color:antiquewhite;
+    border-radius: 20px;
+}
+
+.galeria {
+    columns: 4;
+    column-gap: 15px;
+}
+
+.tarjeta {
+    background-color:rgba(211, 158, 180, 0.685);
+    margin-bottom: 15px;
+    border-radius: 15px;
+    overflow: hidden; /*sirve para ocultar cualquier contenido que sobresalga de los limites de un elemento*/
+    break-inside: avoid; /*sirve para evitar que un elemento se divida entre dos columnas o páginas*/
+    transition: transform 0.3s; /*Sirve para suavizar clicks al presionar un botón o hipervínculo*/
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: #f7b5ddcc;
+    text-align: center;
+    color: #855971;
+    padding: 25px;
+    margin: 5px;
+}
+
+footer p{
+    margin: 5px;
+}
